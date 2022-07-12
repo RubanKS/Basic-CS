@@ -1,4 +1,6 @@
-﻿double a;
+﻿//Написать программу вычисления значения функции y = sin(a). (Класс Math)
+
+double a;
 string? a1;
 double y;
 
