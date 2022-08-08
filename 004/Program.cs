@@ -16,6 +16,59 @@ String seven = "Воскресенье";
 Console.Write("Введите номер дня недели:");
 n1 = Console.ReadLine();
 n = Convert.ToInt32(n1);
+//n = int.Parse(Console.ReadLine()); // Тоже самое, что n = Convert.ToInt32(n1);
+
+/*
+
+int dayOfWeek;//camelCase 
+//int DayOfWeek;//PascalCase
+//dayOfWeek=Convert.ToInt32(Console.ReadLine());
+dayOfWeek=Convert.ToInt32(Console.ReadLine());
+
+switch(dayOfWeek)
+{
+    case 1:
+        System.Console.WriteLine("Monday");
+        break;
+    case 2:
+        System.Console.WriteLine("Tuesday");
+        break;
+    case 3:
+        System.Console.WriteLine("Wednesday");
+        break;
+    default:
+        System.Console.WriteLine("Wrong!");
+        break;
+}
+*/
+
+switch(n)
+{
+    case 1:
+        System.Console.WriteLine("Monday");
+        break;
+    case 2:
+        System.Console.WriteLine("Tuesday");
+        break;
+    case 3:
+        System.Console.WriteLine("Wensday");
+        break;
+    case 4:
+        System.Console.WriteLine("Thusday");   
+        break;
+    case 5:
+        System.Console.WriteLine("Friday");
+        break;
+    case 6:
+        System.Console.WriteLine("Saturday");   
+        break;  
+    case 7:
+        System.Console.WriteLine("Sunday");   
+        break;                            
+    default:
+        System.Console.WriteLine("Wrong!!");
+}
+
 
 if (n == 1)
 {
