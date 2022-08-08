@@ -1,6 +1,11 @@
 ﻿// В Указанном массиве вещественных чисел найдите
 //разницу между максимальным и минимальным элементом
 
+/* Чтобы использовался System
+using System;
+*/
+
+
 Console.Write("Введите количество чисел:");
 int N = Convert.ToInt32(Console.ReadLine());
 
@@ -36,3 +41,11 @@ diff = maxN - minN;
 // System.Console.WriteLine($"Минимальное значение: {minN}");
 // System.Console.WriteLine($"Максимальное значение: {maxN}");
 System.Console.WriteLine($"Разница между максимальным и минимальным значениями: {maxN} - {minN} = {diff}");
+
+/*
+double[] a;
+//InitDouble(out a,2)
+string s = Console.ReadLine();
+string[] ss=s.Split(' ');
+a=Array.ConvertAll<string,double>(ss,Convert.ToDouble);
+*/
