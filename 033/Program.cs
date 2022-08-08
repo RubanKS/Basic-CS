@@ -1,11 +1,18 @@
 ﻿//Задать массив из 8 элементов, заполненных нулями и единицами вывести их на экран
 
-int N = 8;
+int[] a;
+InitPrint (out a);
 
-int[] a = new int[N];
-Random random = new Random();
-for (int i = 0; i < a.Length; i++)
+
+
+/*---InitPrint--------------------------------*/
+void InitPrint (out int[] a, int Length = 8, int min = 0, int max = 2)
 {
-    a[i] = random.Next(0, 2);
-    System.Console.Write($"{a[i],4}");
+    a = new int[Length];
+    Random random = new Random();
+    for (int i = 0; i < a.Length; i++)
+    {
+        a[i] = random.Next(min, max);
+        System.Console.Write($"{a[i],4}");
+    }
 }
