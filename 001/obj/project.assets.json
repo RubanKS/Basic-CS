@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Legion\\Desktop\\GeekBrains\\Basic_C#_RKS\\001\\001.csproj",
+      "projectUniqueName": "D:\\!Learning\\GeekBrains\\Basic_C#_RKS\\001\\001.csproj",
       "projectName": "001",
-      "projectPath": "C:\\Users\\Legion\\Desktop\\GeekBrains\\Basic_C#_RKS\\001\\001.csproj",
+      "projectPath": "D:\\!Learning\\GeekBrains\\Basic_C#_RKS\\001\\001.csproj",
       "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Legion\\Desktop\\GeekBrains\\Basic_C#_RKS\\001\\obj\\",
+      "outputPath": "D:\\!Learning\\GeekBrains\\Basic_C#_RKS\\001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config"
